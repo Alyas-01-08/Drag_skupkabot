@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "drag-skupkabot"
+version = "0.1.0"
+description = ""
+authors = ["Aliaskar <alyas.toronov@mail.ru>"]
+readme = "README.md"
+packages = [{include = "drag_skupkabot"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.1.6"
+aiogram = "^2.25.1"
+loguru = "^0.6.0"
+celery = "^5.2.7"
+pillow = "^9.4.0"
+python-slugify = "^8.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
